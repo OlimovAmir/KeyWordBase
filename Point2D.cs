@@ -8,8 +8,10 @@ namespace KeyWordBase
 {
     internal class Point2D
     {
-        public Point2D()
+        public Point2D(int x, int y)
         {
+            this.X = x;
+            this.Y = y;
             Console.WriteLine("Called Constructor Point 2D");
         }
         public int X { get; set; }

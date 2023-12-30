@@ -6,8 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Point3D point3D = new Point3D();
-
-        
+        Point3D point3D = new Point3D(15, 2, 23);
+                
     }
 }
