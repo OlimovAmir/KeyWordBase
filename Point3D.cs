@@ -14,5 +14,12 @@ namespace KeyWordBase
             Console.WriteLine("Called Constructor Point 2D");
         }
         public int Z { get; set; }
+
+        public void Print3D()
+        {
+            base.Print2D();
+            Console.WriteLine($"Z:\t {Z}");
+            
+        }
     }
 }

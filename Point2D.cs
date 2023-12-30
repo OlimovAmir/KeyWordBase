@@ -16,5 +16,12 @@ namespace KeyWordBase
         }
         public int X { get; set; }
         public int Y { get; set; }
+
+
+        public void Print2D()
+        {
+            Console.WriteLine($"X:\t {X}");
+            Console.WriteLine($"Y:\t {Y}");
+        }
     }
 }
